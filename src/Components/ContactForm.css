@@ -1,0 +1,58 @@
+.Form-Container{
+    margin:4rem 6rem;
+    color: #2a2a2a;
+}
+
+.Form-Container h1{
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.Form-Container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.Form-Container input,.formbutton, .Form-Container textarea{
+    height:3rem;
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+}
+
+.Form-Container textarea{
+    height:6rem;
+}
+
+.formbutton{
+    background-color:#2a2a2a;
+    color: white;
+}
+
+@media screen and (max-width:850px){
+    .Form-Container{
+        margin:4rem 2rem;
+    }
+    
+    .Form-Container h1{
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    
+    .Form-Container form{
+        width: 90%;
+    }
+    
+    .Form-Container input,button, .Form-Container textarea{
+        height:3rem;
+        padding: 0 1rem;
+        margin-bottom: 2.5rem;
+        border: 1px solid #2a2a2a;
+        border-radius: 10px;
+    }
+    
+}
