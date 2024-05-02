@@ -88,8 +88,8 @@ img{
         height:100%;
     }
 
-    .Hero_About h1{
-        margin-top: 15%;
+    .Hero_About h1,.Hero_Home h1{
+        margin-top: 10%;
         font-size: 3rem;
         font-weight: 800;
      }
